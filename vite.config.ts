@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/project-bolt-sb1-av7rqdkx/', // Update this to your repository name
+  base: '/Planner/', // 👈 must match repo name exactly
   build: {
     outDir: 'dist',
     sourcemap: true,
